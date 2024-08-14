@@ -1,0 +1,138 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #f1f1f1;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    font-weight: 600;
+  }
+  
+  .footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+  }
+  
+  .footer-section p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #f1f1f1;
+  }
+  
+  
+  .section-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section .subscribe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section .subscribe input {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  .footer-section .subscribe button {
+    padding: 8px 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .footer-section .social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .footer-section .social-icons a {
+    color: #f1f1f1;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: orange;
+  }
+  
+  .footer i {
+    margin-right: 8px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-section {
+      width: 48%; /* Two columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      width: 100%; /* Stack sections on small screens */
+      margin-bottom: 30px;
+    }
+  
+    .footer-section .subscribe {
+      flex-direction: column;
+    }
+  
+    .footer-section .subscribe input {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .footer-section .social-icons {
+      justify-content: center;
+      margin-top: 15px;
+    }
+  }
+  
+  
